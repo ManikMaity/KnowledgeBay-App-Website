@@ -168,7 +168,6 @@ em{
 
 
 
-
 @media (max-width: 580px) {
     .mobile-img {
       position: static;
@@ -178,7 +177,19 @@ em{
     #header {
       text-align: center;
     }
+    .big-text{
+        font-size: 3rem;
   }
+  #testimonial h2{
+    font-size: 2.2rem;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+}
+
 
 
 /*font-family: 'Open Sans', sans-serif; font-width: 400 500 600
