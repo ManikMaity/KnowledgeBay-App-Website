@@ -1,0 +1,185 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    
+}
+
+#header{
+    background-color: #1363DF;
+    padding: 2% 12% 5%;
+}
+
+/* navbar */
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+.brand-logo{
+    width: 50px;
+}
+/* title */
+.big-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+}
+.mobile-img{
+    width: 80%;
+    transform: rotate(20deg);
+    position: relative;
+    top: 12em;
+    left: 2.5em;
+}
+.download-button{
+    margin:0 2%;
+}
+
+#features{
+    padding: 7% 12%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-icon{
+    font-size: 4.5rem;
+    position: relative;
+    top:1rem;
+    color: #47B5FF ;
+}
+.feature-icon:hover{
+    color: #1363DF;
+}
+.features-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.features-des{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+
+
+#testimonial{
+    padding: 7% 12%;
+    background-color: #47B5FF;
+
+
+}
+#testimonial h2{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.testimonial-icon{
+    border-radius: 50%;
+    width: 5%;
+    margin: 2% 1%;
+}
+em{
+    color: #fff;
+}
+.carousel-inner{
+    padding: 0 10%;
+}
+#pricing{
+
+    padding: 5% 12%;
+}
+.pricing-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.pricing-title span{
+    font-weight: 800;
+    color: #1363DF;
+}
+.card-header h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.card-title span{
+    color: #8f8f8f;
+    font-weight: 400;
+}
+.card-body li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+#ctc{
+    padding: 5% 12%;
+    background-color: #1363DF ;
+    text-align: center;
+}
+#ctc .btn{
+    margin: 0 0.5%;
+}
+#ctc .container{
+    margin-top: 5%;
+}
+#footer{
+    padding: 5% 12%;
+    text-align: center;
+
+}
+#footer .container{
+    margin-bottom: 20px;
+}
+.footer-icon{
+    font-size: 1.2rem;
+    margin: 0 1%;
+    color: #8f8f8f;
+}
+.footer-icon:hover{
+    color: #1363DF;
+}
+#footer p{
+    color: #8f8f8f;
+}
+#footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 580px) {
+    .mobile-img {
+      position: static;
+      transform: rotate(0);
+    }
+  
+    #header {
+      text-align: center;
+    }
+  }
+
+
+/*font-family: 'Open Sans', sans-serif; font-width: 400 500 600
+font-family: 'Rubik', sans-serif; font-width: 300 400 600 800 */
